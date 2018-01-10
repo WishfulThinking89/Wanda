@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html  lang="en-EN">
+<head>
+
+<meta charset="utf-8">
+
+<link rel="stylesheet" type="text/css" href="css/foundation.css">
+
+
+<style type="text/css">
+	body{
+		background-color: #7B68EE; 
+		text-align: left;
+	}
+	.whateverthefuckiwanttocallit{
+		width: 100%;
+	}
+	#onepage{
+		background-color: blue;
+	}
+	/*.mainBodyClass{
+	}*/
+</style>
+<!-- <script type="text/javascript" src="js/jquery.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/foundation.min.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		console.log("doc is ready !");
+		
+		$("#onepage").click(function(){
+			window.open("one.html");
+		});
+
+
+		// $("#onepage").hover(function(){
+		// 	$(this).css("cursor", "pointer");
+		// });
+
+
+		$('.aaaaaaa').click(function(){
+			alert("HI");
+		});
+		
+
+		// $(".aaaaaaa").hover(function(){
+		// 	$(this).css("cursor", "pointer");
+		// });
+
+
+		// $(".aaaaaaa").hover(function(){
+		// 	$(this).css("cursor", "pointer");
+		// });
+
+
+		$('li').hover(function(){
+			$(this).css("cursor","pointer");
+		});
+
+
+		$('li').click(function(){
+			if($(this).text() == "Three"){
+				window.open("three.html");
+			}
+		});
+
+		console.log("doc is ready !!");
+
+	}); 
+
+
+</script>
+
+
+</head>
+<body>
+
+	<ul class="menu simple">
+	  <li id="onepage">One</li>
+	  <li class="aaaaaaa">Two</li>
+	  <li>Three</li>
+	  <li class="four.html">Four</li>
+	</ul>
+	<br>
+	<h1 style="text-align: center; background-color: tomato;">
+		<em>Have A Wonderful Day</em>
+
+		<img src="http://intheloopknitting.com/wp-content/uploads/2015/09/bearslyingonquilt1.jpg">
+			
+		
+
+
+
+	</h1>
+
+</body>
+</html>
